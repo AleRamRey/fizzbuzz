@@ -10,5 +10,8 @@
     "test": "node --experimental-vm-modules ./node_modules/jest/bin/jest.js"
   },
   "author": "Alex Ramirez",
-  "license": "ISC"
+  "license": "ISC",
+  "devDependencies": {
+    "jest": "^28.0.3"
+  }
 }
