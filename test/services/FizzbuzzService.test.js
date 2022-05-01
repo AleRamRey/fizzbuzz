@@ -1,4 +1,4 @@
-const FizzbuzzService = require("./../../lib/services/FizzbuzzService")
+const FizzbuzzService = require("./../../lib/services/FizzbuzzService");
 
 describe("Prueba de FizzbuzzService",()=> {
 
@@ -44,7 +44,7 @@ describe("Prueba de FizzbuzzService",()=> {
     test("8. Validar numero Fizzbuzz",()=>{        
         const explorerResult = FizzbuzzService.applyValidationInNumber(15);
         expect(explorerResult).toBe("FIZZBUZZ");        
-    })  
+    });  
     
 });
 
