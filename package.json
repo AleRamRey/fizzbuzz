@@ -4,12 +4,14 @@
   "description": "Refactoring",
   "main": "app.js",
   "directories": {
-    "lib": "lib"
+    "lib": "lib",
+    "test": "test"
   },
   "scripts": {
     "test": "node --experimental-vm-modules ./node_modules/jest/bin/jest.js",
     "linter": "node ./node_modules/eslint/bin/eslint.js .",
-    "linter-fix": "node ./node_modules/eslint/bin/eslint.js . --fix"
+    "linter-fix": "node ./node_modules/eslint/bin/eslint.js . --fix",
+    "server": "node ./lib/server.js"
   },
   "author": "Alex Ramirez",
   "license": "ISC",
@@ -18,5 +20,16 @@
     "eslint-config-airbnb-base": "^15.0.0",
     "eslint-plugin-import": "^2.26.0",
     "jest": "^26.6.3"
-  }
+  },
+  "dependencies": {
+    "express": "^4.18.1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AleRamRey/fizzbuzz.git"
+  },
+  "bugs": {
+    "url": "https://github.com/AleRamRey/fizzbuzz/issues"
+  },
+  "homepage": "https://github.com/AleRamRey/fizzbuzz#readme"
 }
